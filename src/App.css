@@ -116,9 +116,7 @@ body{
   transition: 1s;
 }
 
-.page-link-div:hover{
-  color:rgb(241, 10, 79);
-}
+
 
 .page-link{
   position: absolute;
