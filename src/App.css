@@ -113,8 +113,13 @@ body{
   align-self: center;
   margin-top: 20px;
   background-color: rgba(43, 61, 226, 0.377);
-  
+  transition: 1s;
 }
+
+.page-link-div:hover{
+  color:rgb(241, 10, 79);
+}
+
 .page-link{
   position: absolute;
   top: 60vh;
