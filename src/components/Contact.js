@@ -8,7 +8,7 @@ class Contact extends Component {
             <section id="contact-div">
                 <div id="contact-header">CONTACT ME</div>
                 <div id="contacts_list">
-                    <div className="contact-element" id="contact-email-div">Email: Austin.rhoads.code@gmail.com</div>
+                    <div className="contact-element" id="contact-email-div">Austin.rhoads.code@gmail.com</div>
                     <div className="contact-element" id="contact-linkedin-div icon-element"><a href="https://www.linkedin.com/in/austinrhoads-code/"><img alt ="" src={linkedin_blue} /></a></div>
                     <div className="contact-element" id="contact-github-div icon-element"><a href ="https://github.com/AustinRhoads" ><img alt="" src={white_git} /></a></div>
                 </div>
