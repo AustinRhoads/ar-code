@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import me_neo from '../me_neo.jpg'
 import sword from '../images/pix_sword.png'
 import pix_per from '../images/pix_per_1.png'
-//import wizard_hat from '../images/wizard_hat.png'
+
 import invent from '../images/inventive_px.png'
 import dynamic from '../images/dynamic_px.png'
 
