@@ -871,13 +871,12 @@ flex-direction: column;
   }
 
   .about-values-item{
-    /*width: 200px;
-    height: 220px;*/
+ 
     width: calc(100% / 2);
     height: calc(100% / 2);
     margin-left: 0px;
     margin-right: 0px;
-   /* background-color: #93E9BE;*/
+   
   }
 
   #about-skills-wrapper{
@@ -921,7 +920,7 @@ flex-direction: column;
     position: relative;
     align-self: center;
     margin-top: 0;
-    height: 240px;
+    height: 50vh;
     width: 50vw;
   
   }
@@ -933,6 +932,10 @@ flex-direction: column;
     right: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 18pt;
+  }
+
+  .project-card-languages{
+    font-size: 6vw;
   }
 
 
@@ -954,8 +957,9 @@ flex-direction: column;
   .blog-list-item{
     align-self: center;
     margin-top: 0;
-    height: 240px;
+    height: 50vw;
     width: 50vw;
+   
   
   }
 
@@ -965,7 +969,7 @@ flex-direction: column;
     left: 0;
     right: 0;
     font-family: 'Raleway', sans-serif;
-    font-size: 18pt;
+    font-size: 6vh;
   }
 
   
