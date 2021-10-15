@@ -873,7 +873,7 @@ flex-direction: column;
   .about-values-item{
  
     width: calc(100% / 2);
-    height: calc(100% / 2);
+    height: auto;
     margin-left: 0px;
     margin-right: 0px;
    
