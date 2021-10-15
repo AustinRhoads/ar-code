@@ -353,6 +353,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 70px;
+  width: 100%;
 }
 
 
@@ -870,11 +871,17 @@ flex-direction: column;
   }
 
   .about-values-item{
-    width: 200px;
-    height: 220px;
-    margin-left: 25px;
-    
+    /*width: 200px;
+    height: 220px;*/
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    margin-left: 0px;
+    margin-right: 0px;
    /* background-color: #93E9BE;*/
+  }
+
+  #about-skills-wrapper{
+    width: 100%;
   }
 
   #about-skill-wrapper-img-div{
