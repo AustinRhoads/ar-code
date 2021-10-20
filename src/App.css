@@ -239,12 +239,39 @@ body{
    -1px 1px 0 rgba(0, 0, 0, 0.11),
     1px 1px 0 rgba(0, 0, 0, 0.11);
 }
+
+.line {
+  
+  content: '';
+  opacity: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--new-active);
+  transition: opacity 300ms, transform 400ms;
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+
+}
+
+.nav-link:hover{
+  color: var(--new-active);
+}
+
+.nav-link:hover > .line{
+ 
+  transform: scale(1);
+ 
+}
+
 .lit{
- /* color:rgb(241, 10, 79);*/
+ 
  color: var(--new-active);
- /* animation: lightmeup 1s; */
+ 
+}
 
-
+.lit > div.line{
+  transform: scale(1);
 }
 
 @keyframes lightmeup {
@@ -266,6 +293,8 @@ body{
  /* color:rgb(241, 10, 79);*/
   color: var(--new-active);
 }
+
+
 
 #nav-icon{
   display: none;
